@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclas</title>
+   <style>
+        
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .centro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        .fundo{
+            width: 96%;
+            height: 65vh;
+            background-color: rgb(218, 255, 185);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: space-around;
+            justify-items: center;
+            
+        }
+
+        .tela {
+            width: 85%;
+            height: 75vh;
+            background-color: rgb(191, 5, 104);
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        
+        }
+        .linha1 {
+            width:90%;
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+        .esc{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F1{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F2{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F3{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F4{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F5{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F6{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F7{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F8{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        
+        .F9{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        
+        .F10{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        
+        .F11{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .F12{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        .Prt{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+            
+        }
+        .Scroll{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+           
+        }
+        .Pause{
+            width:7%;
+            height: 7vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+           
+        }
+        .gasparzinho{
+            width:7%;
+            height: 7vh;
+        }
+        .Space{
+            width:30%;
+            height: 5vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+        
+        .Windows{
+            width:7%;
+            height: 5vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+
+        .BackSpace{
+            width:13%;
+            height: 5vh;
+            background-color: rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+
+        .CapsLock{
+            width:9%;
+            height: 5vh;
+            background-color:rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+
+        .linha2 {
+            width:90%;
+            height: 40vh;
+          
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            display:flex
+            
+        }
+
+        .linha3 {
+            width:90%;
+            height: 50vh;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            display:flex
+            
+        }
+
+        .linha4 {
+            width:90%;
+            height: 50vh;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            display:flex
+            
+        }
+
+        .linha5 {
+            width:90%;
+            height: 50vh;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            display:flex
+            
+        }
+
+        .linha6 {
+            width:90%;
+            height: 50vh;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            display:flex
+            
+        }
+        
+
+        .numero{
+            width: 6%;
+            height: 6vh;
+            background-color:  rgb(26, 74, 216);
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="tela">
+<div class="fundo">
+<div class="linha1">
+   
+    <div class="esc" id="27">Esc</div>
+    <div class="gasparzinho"></div>
+    <div class="F1"id="112">F1</div>
+    <div class="F2"id="113">F2</div>
+    <div class="F3"id="114">F3</div>
+    <div class="F4"id="115">F4</div>
+    <div class="gasparzinho"></div>
+    <div class="F5"id="116">F5</div>
+    <div class="F6"id="117">F6</div>
+    <div class="F7"id="118">F7</div>
+    <div class="F8"id="119">F8</div>
+    <div class="gasparzinho"></div>
+    <div class="F9"id="120">F9</div>
+    <div class="F10"id="121">F10</div>
+    <div class="F11"id="122">F11</div>
+    <div class="F12"id="123">F12</div>
+    <div class="gasparzinho"></div>
+    <div class="Prt"> Prt Sc<br>SysRq</div>
+    <div class="Scroll"id="36">Scroll<br>Lock</div>
+    <div class="Pause"id="33">Pause<br>Break</div>
+    
+
+
+
+</div>
+<div class="linha2">
+   
+    <div class="numero centro" id="192">" <br> '</div>
+    <div class="numero centro"  id="49">! <br> 1</div>
+    <div class="numero centro" id="50">@ <br> 2</div>
+    <div class="numero centro" id="51"># <br> 3</div>
+    <div class="numero centro" id="52">$ <br> 4</div>
+    <div class="numero centro" id="53">% <br> 5</div>
+    <div class="numero centro" id="54">¨ <br> 6</div>
+    <div class="numero centro" id="55">& <br> 7</div>
+    <div class="numero centro" id="56" >* <br> 8</div>
+    <div class="numero centro" id="57" >( <br> 9</div>
+    <div class="numero centro" id="48" >) <br> 0</div>
+    <div class="numero centro" id="189" >_ <br> -</div>
+    <div class="numero centro" id="187" >+ <br> =</div>
+    <div class="BackSpace" id="8" > </div>
+    <div class="gasparzinho" ></div>
+    <div class="numero centro"  id="45"> Insert </div>
+    <div class="numero centro" id="36" > Home </div>
+    <div class="numero centro" id="33" > PgUp </div>
+    <div class="gasparzinho"></div>
+    <div class="numero centro" id="111" > / </div>
+    <div class="numero centro" id="106 "> * </div>
+    <div class="numero centro" id="109"> - </div>
+   
+
+
+
+</div>
+<div class="linha3">
+    <div class="numero centro" id="9">Tab </div>
+    <div class="numero centro" id="81"> Q </div>
+    <div class="numero centro" id="87"> W </div>
+    <div class="numero centro" id="69"> E </div>
+    <div class="numero centro" id="82"> R </div>
+    <div class="numero centro" id="84"> T </div>
+    <div class="numero centro" id="89"> Y </div>
+    <div class="numero centro" id="85"> U</div>
+    <div class="numero centro" id="73"> I </div>
+    <div class="numero centro" id="79"> O </div>
+    <div class="numero centro" id="80"> P </div>
+    <div class="numero centro" id="219"> ` </div>
+    <div class="numero centro" id="221"> { <br> [ ª </div>
+    <div class="numero centro" id="13"> Enter </div>
+    <div class="gasparzinho"></div>
+    <div class="numero centro" id="46"> Delete </div>
+    <div class="numero centro" id="35"> End </div>
+    <div class="numero centro" id="34"> PgDn </div>
+    <div class="gasparzinho"></div>
+    <div class="numero centro" id="36"> 7 </div>
+    <div class="numero centro" id="38"> 8 </div>
+    <div class="numero centro" id="33"> 9 </div>
+    <div class="numero centro" id="107"> + </div>
+
+</div>
+<div class="linha4">
+    <div class="CapsLock" id="20"> CapsLock </div>
+    <div class="numero centro" id="65"> A </div>
+    <div class="numero centro" id="83"> S </div>
+    <div class="numero centro" id="68"> D </div>
+    <div class="numero centro" id="70"> F </div>
+    <div class="numero centro" id="71"> G </div>
+    <div class="numero centro" id="72"> H </div>
+    <div class="numero centro" id="74"> J </div>
+    <div class="numero centro" id="75"> K </div>
+    <div class="numero centro" id="76"> L </div>
+    <div class="numero centro" id="186"> Ç </div>
+    <div class="numero centro" id="222"> ^ <br> ~ </div>
+    <div class="numero centro" id="220"> } <br> ] º </div>
+    <div class="gasparzinho"></div>
+    <div class="numero centro" id="37"> 4 </div>
+    <div class="numero centro" id="12"> 5 </div>
+    <div class="numero centro" id="39"> 6 </div>
+    <div class="numero centro" id="194"> . </div>
+
+
+</div>
+<div class="linha5">
+    <div class="numero centro" id="16">Shift </div>
+    <div class="numero centro" id="226"> | <br> \ </div>
+    <div class="numero centro" id="90"> Z </div>
+    <div class="numero centro" id="88"> X </div>
+    <div class="numero centro" id="67"> C </div>
+    <div class="numero centro" id="86"> V </div>
+    <div class="numero centro" id="66"> B </div>
+    <div class="numero centro" id="78"> N </div>
+    <div class="numero centro" id="77"> M </div>
+    <div class="numero centro" id="188"> , </div>
+    <div class="numero centro" id="190"> . </div>
+    <div class="numero centro" id="191"> : <br> ; </div>
+    <div class="numero centro" id="193"> ? <br> / ° </div>
+    <div class="numero centro" id="16"> Shift </div>
+    <div class="gasparzinho"></div>
+    <div class="numero centro" id="35"> 1 </div>
+    <div class="numero centro" id="40"> 2 </div>
+    <div class="numero centro" id="34"> 3 </div>
+    <div class="numero centro" id="13"> Enter </div>
+
+</div>
+<div class="linha6">
+    <div class="numero centro" id="17"> Ctrl </div>
+    <div class="numero centro" > Fn </div>
+    <div class="Windows" id="91"> </div>
+    <div class="numero centro" id="18"> Alt </div>
+    <div class="Space" id="32"> </div>
+    <div class="numero centro" > AltGr </div>
+    <div class="numero centro" > Fn </div>
+    <div class="numero centro" id="17"> Ctrl </div>
+    <div class="numero centro" id="45"> 0 <br> Insert </div>
+    <div class="numero centro" id="46">  Delete </div>
+
+
+
+</div>
+</div>
+</div>
+
+
+</body>
+
+<script>
+
+    document.onkeydown = Pega_Tecla;
+
+    function Pega_Tecla(e) {
+        e = e || window.event;
+
+        tecla = e.keyCode;
+        console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+        Tirar_Cores()
+
+       
+        document.getElementById(tecla).style.backgroundColor="black"
+       
+
+
+
+    }
+    function Tirar_Cores()
+    {
+        for(d=1;d<=300;d++)
+        {
+            try
+            {
+                document.getElementById(d).style.backgroundColor="rgb(26, 74, 216)"
+            }
+            catch(erro)
+            {
+
+            }
+        }
+    }
+    
+
+</script>
+
+</html>
